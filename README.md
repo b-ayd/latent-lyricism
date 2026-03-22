@@ -9,7 +9,7 @@ Standard neural machine translation models optimize for semantic accuracy but te
 | Notebook | Description |
 |---|---|
 | `notebooks/latent_similarity_analysis.ipynb` | Baseline semantic similarity analysis. Samples 28 verses from `poem_sentiment`, translates them with Google Translate, and measures cosine similarity in multilingual sentence embedding space (SBERT). Includes PCA visualization of EN vs TR alignment. |
-| `notebooks/latent_lyricism_clean.ipynb` | Current experiment pipeline. Covers mBERT sentiment classifier, zero-shot XLM-RoBERTa baseline, fine-tuned sentiment oracle, baseline NMT emotion preservation, and two latent alignment training approaches. |
+| `notebooks/experiments&latent_alignment.ipynb` | Current experiment pipeline. Covers mBERT sentiment classifier, zero-shot XLM-RoBERTa baseline, fine-tuned sentiment oracle, baseline NMT emotion preservation, and two latent alignment training approaches. |
 
 ## Pipeline Overview
 
